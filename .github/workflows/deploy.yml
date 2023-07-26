@@ -75,4 +75,5 @@ jobs:
           git commit -m "Auto-deploy to GitHub Pages"
           git push origin main
         env:
-          DEPLOY_KEY_PATH: ${{ github.workspace }}/.ssh/id_rsa
+          DEPLOY_KEY_PATH: ${{ github.workspace }}/.ssh/id_ed25519
+
