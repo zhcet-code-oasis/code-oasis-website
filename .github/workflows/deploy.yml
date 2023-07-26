@@ -1,17 +1,13 @@
 name: Deploy Astro to GitHub Pages
 
 on:
-  # Trigger the workflow every time you push to the `main` branch
   push:
     branches:
       - master
-  # Allows you to run this workflow manually from the Actions tab on GitHub.
-  workflow_dispatch:
 
 permissions:
   contents: write
   pages: write
-  id-token: write
 
 jobs:
   build:
@@ -23,14 +19,14 @@ jobs:
       - name: Use Node.js 16
         uses: actions/setup-node@v2
         with:
-          node-version: "16"
-          cache: "npm"
+          node-version: '16'
+          cache: 'npm'
 
       - name: Install dependencies
         run: npm ci
 
       - name: Build Astro
-        run: npm run build --if-present
+        run: npm run build
 
       - name: Upload artifact
         uses: actions/upload-artifact@v2
@@ -51,8 +47,30 @@ jobs:
           name: dist
           path: ./dist
 
+      - name: Set up SSH key
+        run: echo "${{ secrets.DEPLOYMENT_KEY }}" > ~/.ssh/id_rsa
+        env:
+          DEPLOY_KEY_PATH: ${{ github.workspace }}/.ssh/id_rsa
+
+      - name: Set permissions for SSH key
+        run: chmod 600 ${{ env.DEPLOYMENT_KEY}}
+
+      - name: Add SSH config
+        run: echo -e "Host github.com\n  IdentityFile ${{ env.DEPLOYMENT_KEY }}\n  LogLevel ERROR" >> ~/.ssh/config
+
       - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@4.1.0
-        with:
-          branch: master
-          folder: dist
+        run: |
+          git config --global user.name "Your Name"
+          git config --global user.email "youremail@example.com"
+          git remote set-url origin git@github.com:your-organization/code-oasis-website.git
+          git checkout main
+          git fetch
+          git reset --hard origin/main
+          git clean -f -d
+          npm install
+          npm run build
+          git add .
+          git commit -m "Auto-deploy to GitHub Pages"
+          git push origin main
+        env:
+          DEPLOY_KEY_PATH: ${{ github.workspace }}/.ssh/id_rsa
