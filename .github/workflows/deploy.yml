@@ -48,9 +48,11 @@ jobs:
           path: ./dist
 
       - name: Set up SSH key
-        run: echo "${{ secrets.DEPLOYMENT_KEY }}" > ~/.ssh/id_rsa
+        run: echo "${{ secrets.DEPLOYMENT_KEY }}" > ~/.ssh/id_ed25519
+
         env:
-          DEPLOY_KEY_PATH: ${{ github.workspace }}/.ssh/id_rsa
+          DEPLOY_KEY_PATH: ${{ github.workspace }}/.ssh/id_ed25519
+
 
       - name: Set permissions for SSH key
         run: chmod 600 ${{ env.DEPLOYMENT_KEY}}
