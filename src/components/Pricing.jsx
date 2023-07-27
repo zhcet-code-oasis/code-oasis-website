@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { InvitationModal } from "./InvitationModal";
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 
-const pricingData = [
+const EventData = [
   "Seamless integration",
   "Real-time data visualization",
   "Advanced predictive analytics",
@@ -12,7 +12,7 @@ const pricingData = [
   "Responsive customer support",
 ];
 
-export const Pricing = () => {
+export const Events = () => {
   const [isMonthly, setIsMonthly] = useState(true);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -22,7 +22,7 @@ export const Pricing = () => {
 
   return (
     <section className="w-screen flex justify-center bg-customDarkBg2 relative">
-      <div className="absolute -top-16" id="pricing" />
+      <div className="absolute -top-16" id="Events" />
       <div className="pb-20 pt-12 bg-customDarkBg2  2xl:w-[1150px] lg:w-[1050px]  md:w-4/5 ">
         <motion.div
           initial={{ opacity: 0 }}
@@ -81,7 +81,7 @@ export const Pricing = () => {
                     The perfect way to get started and get used to our tools.
                   </p>
                   <ul className="mb-2 2xl:mb-6 text-white">
-                    {pricingData.map((text, index) => (
+                    {EventData.map((text, index) => (
                       <li className="mb-4 flex" key={`${text}-${index}`}>
                         <CheckArrowIcon />
                         <span>{text}</span>
@@ -113,7 +113,7 @@ export const Pricing = () => {
                     Unlock more features and elevate your data analysis.
                   </p>
                   <ul className="mb-14 text-white">
-                    {pricingData.map((text, index) => (
+                    {EventData.map((text, index) => (
                       <li className="mb-4 flex" key={`${text}-${index}`}>
                         <CheckArrowIcon />
                         <span>{text}</span>
@@ -142,10 +142,10 @@ export const Pricing = () => {
                     </div>
                   </div>
                   <p className="mt-4 mb-6 2xl:mb-10 text-gray-500 leading-loose text-left">
-                    Experience the full power of our  analytic platform
+                    Experience the full power of our analytic platform
                   </p>
                   <ul className="mb-2 2xl:mb-6 text-white">
-                    {pricingData.map((text, index) => (
+                    {EventData.map((text, index) => (
                       <li className="mb-4 flex" key={`${text}-${index}`}>
                         <CheckArrowIcon />
                         <span>{text}</span>

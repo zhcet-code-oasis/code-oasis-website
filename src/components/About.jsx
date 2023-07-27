@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 
-const FAQData = [
+const AboutData = [
   {
     question: "Can I upgrade or downgrade my plan at any time?",
     answer:
@@ -24,9 +24,9 @@ const FAQData = [
   },
 ];
 
-export const FAQ = () => (
+export const About = () => (
   <section className="relative pt-16 pb-16 bg-blueGray-50 overflow-hidden">
-    <div className="absolute -top-10" id="FAQ" />
+    <div className="absolute -top-10" id="About" />
     <motion.div
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
@@ -42,9 +42,9 @@ export const FAQ = () => (
             Frequently Asked Questions
           </h2>
           <div className="mb-11 flex flex-wrap -m-1">
-            {FAQData.map((item, index) => (
+            {AboutData.map((item, index) => (
               <div className="w-full p-1">
-                <FAQBox
+                <AboutBox
                   title={item.question}
                   content={item.answer}
                   key={`${item.question}-${item.answer}`}
@@ -59,7 +59,7 @@ export const FAQ = () => (
   </section>
 );
 
-const FAQBox = ({ defaultOpen, title, content }) => {
+const AboutBox = ({ defaultOpen, title, content }) => {
   const [isOpen, setIsOpen] = useState(defaultOpen);
 
   return (

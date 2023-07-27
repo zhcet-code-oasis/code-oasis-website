@@ -5,7 +5,7 @@ import testimonial1 from "../assets/images/testimonial1.png";
 import testimonial2 from "../assets/images/testimonial2.png";
 import testimonial3 from "../assets/images/testimonial3.png";
 
-const testimonialsData = [
+const BlogData = [
   {
     customerName: "John Watkins",
     customerTitle: "Founder of Dashflow",
@@ -29,9 +29,9 @@ const testimonialsData = [
   },
 ];
 
-export const Testimonials = () => (
+export const Blogs = () => (
   <section className="w-full flex justify-center pt-10 mb-16 lg:mb-32 bg-customDarkBg2 relative">
-    <div className="absolute -top-16" id="feedback" />
+    <div className="absolute -top-16" id="Blogs" />
     <div className="flex flex-col w-full lg:w-[1150px] justify-center">
       <motion.div
         initial={{ opacity: 0 }}
@@ -47,7 +47,7 @@ export const Testimonials = () => (
         </div>
 
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-5 xl:gap-10 px-6 xl:px-0 items-center">
-          {testimonialsData.map((testimonial, index) => (
+          {BlogData.map((testimonial, index) => (
             <div
               className="w-11/12 sm:w-4/5 md:w-[560px] lg:w-1/3 custom-border-gray-darker rounded-xl bg-customDarkBg3 flex flex-col px-6 py-4"
               key={`${testimonial.customerName}-${index}`}
