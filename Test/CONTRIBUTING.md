@@ -17,9 +17,9 @@ Here are some resources to help you get started with open source contributions:
 
 - #### Fork the repository
 
-  At the top right corner, you will see the term "fork". All you need to do is click it and you will have created a copy of the same project in your account.
-
-  <img src="/contributing/images/fork.png" />
+  At the top right corner, you will see the term "fork". All you need to do is click it and you will have created a copy of the same project in your account.  
+  
+  <img src="https://www.freecodecamp.org/news/content/images/2021/11/click.png" />
 
    After this operation the URL of the project will change to:
 
@@ -73,7 +73,7 @@ Here are some resources to help you get started with open source contributions:
 
 2. Under your repository name, click Issues.
    
-   <img src="/contributing/images/blank_issue_link.webp" />
+   <img src="https://docs.github.com/assets/cb-52119/mw-1440/images/help/repository/repo-tabs-issues.webp " height = "200px" />
 
 3. Click New issue.
 
@@ -81,7 +81,7 @@ Here are some resources to help you get started with open source contributions:
 
    If the type of issue you'd like to open isn't included in the   available options, click Open a blank issue.
 
-   <img src="/contributing/images/repo-tabs-issues.webp" />
+   <img src="https://docs.github.com/assets/cb-35272/mw-1440/images/help/issues/blank_issue_link.webp" height = "200px" />
 
 5. Screenshot of the template chooser for an issue. Below the template choices, a link, labeled "Open a blank issue," is outlined in dark orange.
 
