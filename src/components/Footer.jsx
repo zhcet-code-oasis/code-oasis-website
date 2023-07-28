@@ -36,21 +36,20 @@ export const Footer = () => {
                 <div className="text-white mr-2 text-6xl">
                   <TailcastLogo />
                 </div>
-                <div className="text-white font-['Inter'] font-bold text-xl">
-                  Tailcast
+                <div className="text-white font-['Inter'] font-bold text-xl mt-8">
+                  ZHCET Code OaSiS
                 </div>
               </div>
               <p className="mb-10 mt-4 sm:w-[22rem] lg:w-[20rem] xl:w-[24rem] text-gray-400 leading-loose text-center lg:text-left mx-auto lg:mx-0">
-                Dashboard images were made using free Dark Admin dashboard that
-                you can find
-                <a
+                Your Own Community
+                {/*<a
                   href="https://bootstrapious.com/p/bootstrap-4-dark-admin"
                   target="_blank"
                   className="text-gray-100 ml-1.5 "
                   aria-label="DarkAdmin"
                 >
                   here.
-                </a>
+  </a>*/}
               </p>
               <div className="w-36 mx-auto lg:mx-0">
                 <a
