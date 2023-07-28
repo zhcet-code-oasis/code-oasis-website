@@ -32,7 +32,8 @@ export const Hero = () => {
               Unleashing Innovation, Cultivating Collaboration:
 </span>*/}
             <span className="hidden md:inline">
-              Welcome To ZHCET Code Oasis
+              Welcome To <br />
+              ZHCET Code OaSiS
             </span>
           </div>
           {/*<div className="mt-2 sm:mt-2 text-4xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-white  px-8 sm:px-20 md:px-24 lg:px-24">
@@ -45,7 +46,7 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.1 }}
         >
           <div className="text-customGrayText text-sm lg:text-base xl:text-lg sm:text-base mt-8 px-12 sm:px-48 ">
-            Unleashing Innovation, Cultivating Collaboration
+            Unleashing Innovation Cultivating Collaboration
           </div>
         </motion.div>
         <motion.div
