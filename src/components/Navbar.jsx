@@ -9,7 +9,7 @@ const navbarLinks = [
   { label: "Blogs", href: "#Blogs", ariaLabel: "Blogs" },
   { label: "Events", href: "#Events", ariaLabel: "Events" },
   { label: "Contributors", href: "#contributors", arialabel: "Contributors" },
-  { label: "About", href: "#About", ariaLabel: "About" },
+  { label: "FAQs", href: "#FAQs", ariaLabel: "FAQs" },
 ];
 
 export const Navbar = () => {
