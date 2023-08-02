@@ -61,7 +61,7 @@ Here are some resources to help you get started with open source contributions:
 
   `git push origin <add-your-branch-name>`
 
-  replacing `<add-your-branch-name>` with the name of the branch you created earlier, in my case it will be `git push origin larykmak`.
+  replacing `<add-your-branch-name>` with the name of the branch you created earlier, in my case it will be `git push origin feature/footer`.
 
 - #### Submit changes
 
