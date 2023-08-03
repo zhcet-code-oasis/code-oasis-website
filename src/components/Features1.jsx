@@ -19,7 +19,7 @@ export const Features1 = () => {
         transition={{ duration: 0.5, delay: 0.2 }}
       >
         <div className="flex flex-wrap items-center 2xl:w-[1450px] xl:w-[1300px] w-11/12 mx-auto md:pl-4 xl:pr-16 xl:pl-16">
-          <div className="w-full lg:w-1/2 mb-12 lg:mb-0">
+          <div className="w-full lg:w-1/2 mt-12 mb-12 lg:mb-0">
             <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
               <span className="custom-block-subtitle">Our Vision</span>
               <h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-big-title">

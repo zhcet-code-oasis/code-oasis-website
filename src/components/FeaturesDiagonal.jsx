@@ -3,6 +3,7 @@ import { useState } from "react";
 
 import { InvitationModal } from "./InvitationModal";
 import featuresdiagonal from "../assets/images/featuresdiagonal.jpg";
+import githubsec from "../assets/images/githubsec.jpg";
 
 export const FeaturesDiagonal = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -32,15 +33,15 @@ export const FeaturesDiagonal = () => {
         <div className=" 2xl:w-[1150px] xl:w-[1050px]  md:w-4/5 flex justify-center bg-customDarkBg1 pt-12 lg:pt-24 pb-8 lg:pb-20 mx-auto lg:flex-row flex-col">
           <div className="w-3/4 lg:w-1/2 flex flex-col lg:mx-unset mx-auto">
             <span className="custom-block-subtitle">
-              Accelerate Your Success
+              Want To Get Started With Open Source ?
             </span>
             <h2 className="mt-10 mb-8 text-4xl lg:text-5xl custom-block-big-title">
-              Build &amp; Launch without problems
+              We Are Here To Help
             </h2>
             <p className="mb-16 text-customGrayText leading-loose">
-              Our platform enables you to launch your data-driven projects with
-              ease. Boost productivity and achieve better results. Empower your
-              decision-making with advanced analytics
+              You can get started with targeting issues of repositories
+              available on our organization profile and you can also collaborate
+              with other folks on their projects via our Slack Server!
             </p>
             <div
               className="w-[210px] h-12 custom-button-colored mr-10 "
@@ -51,7 +52,7 @@ export const FeaturesDiagonal = () => {
           </div>
           <div className="w-4/5 lg:w-1/2 lg:pl-16 flex justify-center mx-auto pt-16 lg:pt-0">
             <img
-              src={featuresdiagonal}
+              src={githubsec}
               alt="f1"
               className="rounded-xl  custom-border-gray"
             />

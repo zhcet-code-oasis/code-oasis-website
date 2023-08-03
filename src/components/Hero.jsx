@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 
 import { InvitationModal } from "./InvitationModal";
 import dashboard from "../assets/images/dashboard.jpg";
+import hero from "../assets/images/hero.png";
 
 export const Hero = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -54,9 +55,9 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.15 }}
         >
-          <div className="flex flex-col gap-2 sm:flex-row mt-10 mb-24 sm:mb-40 justify-center">
+          <div className="flex flex-col gap-2 sm:flex-row mt-10 mb-0 sm:mb-40 justify-center">
             <div
-              className="custom-button-colored w-64 sm:w-52 h-12 mr-0 sm:mr-4 lg:mr-6 mb-2 sm:mb-0"
+              className="custom-button-colored w-64 sm:w-52 h-12 mr-0 sm:mr-4 lg:mr-6 mb-0 sm:mb-0"
               onClick={() => setIsModalOpen(true)}
             >
               Get Involved
@@ -76,9 +77,9 @@ export const Hero = () => {
         >
           <div className="relative w-screen flex justify-center ">
             <img
-              src={dashboard}
-              alt="123"
-              className="w-4/5 2xl:w-[1200px] mx-auto absolute z-10 rounded-xl custom-border-gray hero-dashboard-border-gradient lg:top-6 xl:top-0"
+              src={hero}
+              alt="slack server"
+              className="w-4/5 2xl:w-[1200px] mx-auto absolute z-10 rounded-xl custom-border-gray hero-dashboard-border-gradient lg:top-0 xl:top-0"
             />
           </div>
         </motion.div>
