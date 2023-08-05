@@ -7,24 +7,24 @@ import testimonial3 from "../assets/images/testimonial3.png";
 
 const BlogData = [
   {
-    customerName: "John Watkins",
-    customerTitle: "Founder of Dashflow",
+    customerName: "Aarish Shah Mohsin",
+    customerTitle: "Artificial Intelligence '26",
     content:
-      "The powerful analytic tools have helped us streamline our processes and make data-driven decisions that positively impact our efficiency. Tailcast has been a game-changer for our business. The platform is easy to use, and the insights we've gained have driven significant improvements.",
+      "This is a great initiative by the ZHCET Code Oasis team. It is a great platform for students to learn and grow. I am really excited to be a part of this community. I am looking forward to the events and workshops that will be conducted by the team.",
     image: testimonial1,
   },
   {
-    customerName: "John Watkins",
-    customerTitle: "Founder of Dashflow",
+    customerName: "Rajul Jha",
+    customerTitle: "Computer Science '26",
     content:
-      "The powerful analytic tools have helped us streamline our processes and make data-driven decisions that positively impact our efficiency. Tailcast has been a game-changer for our business. The platform is easy to use, and the insights we've gained have driven significant improvements.",
+      "The community is self driven and motivated. The mentors are very helpful and supportive. All the people are very friendly and the community is very welcoming. Since their is no rigid heirarchy, everyone is free to share their ideas and opinions.   ",
     image: testimonial2,
   },
   {
-    customerName: "John Watkins",
-    customerTitle: "Founder of Dashflow",
+    customerName: "Tayyab Ilyas",
+    customerTitle: "Artificial Intelligence '26",
     content:
-      "The powerful analytic tools have helped us streamline our processes and make data-driven decisions that positively impact our efficiency. Tailcast has been a game-changer for our business. The platform is easy to use, and the insights we've gained have driven significant improvements.",
+      "It's a place for finding love. Love for coding, love for learning, love for sharing. It's a place where you can find people who are as passionate as you are. It's a place where you can find your true self. I am really excited to find love here. It's honestly better than tinder/bumble.",
     image: testimonial3,
   },
 ];
@@ -43,7 +43,7 @@ export const Blogs = () => (
           Testimonials
         </div>
         <div className="custom-block-big-title text-center mb-16 px-8 sm:px-24 md:px-48">
-          People like you love Tailcast
+          People like you love ZHCET Code Oasis
         </div>
 
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-5 xl:gap-10 px-6 xl:px-0 items-center">
