@@ -7,24 +7,24 @@ import testimonial3 from "../assets/images/testimonial3.png";
 
 const BlogData = [
   {
-    customerName: "John Watkins",
-    customerTitle: "Founder of Dashflow",
+    customerName: "Aarish Shah Mohsin",
+    customerTitle: "Artificial Intelligence '26",
     content:
-      "The powerful analytic tools have helped us streamline our processes and make data-driven decisions that positively impact our efficiency. Tailcast has been a game-changer for our business. The platform is easy to use, and the insights we've gained have driven significant improvements.",
+      "This is a great initiative by the ZHCET Code Oasis team. It is a great platform for students to learn and grow. I am really excited to be a part of this community. I am looking forward to the events and workshops that will be conducted by the team.",
     image: testimonial1,
   },
   {
-    customerName: "John Watkins",
-    customerTitle: "Founder of Dashflow",
+    customerName: "Rajul Jha",
+    customerTitle: "Computer Science '26",
     content:
-      "The powerful analytic tools have helped us streamline our processes and make data-driven decisions that positively impact our efficiency. Tailcast has been a game-changer for our business. The platform is easy to use, and the insights we've gained have driven significant improvements.",
+      "ZHCET Code Oasis community is self driven and motivated. The mentors are very helpful, supportive and enthusiastic. All the people are very friendly and the community is very welcoming. Since their is no rigid hierarchy, everyone is free to share their ideas and opinions.",
     image: testimonial2,
   },
   {
-    customerName: "John Watkins",
-    customerTitle: "Founder of Dashflow",
+    customerName: "Tayyab Ilyas",
+    customerTitle: "Artificial Intelligence '26",
     content:
-      "The powerful analytic tools have helped us streamline our processes and make data-driven decisions that positively impact our efficiency. Tailcast has been a game-changer for our business. The platform is easy to use, and the insights we've gained have driven significant improvements.",
+      "Zhcet Code Oasis is a dynamic community for students passionate about technology and open source. Our community fosters collaboration and knowledge sharing. Participate in projects, gain hands-on experience, and connect with like-minded peers.",
     image: testimonial3,
   },
 ];
@@ -43,7 +43,7 @@ export const Blogs = () => (
           Testimonials
         </div>
         <div className="custom-block-big-title text-center mb-16 px-8 sm:px-24 md:px-48">
-          People like you love Tailcast
+          People like you love ZHCET Code Oasis
         </div>
 
         <div className="flex flex-col lg:flex-row gap-8 lg:gap-5 xl:gap-10 px-6 xl:px-0 items-center">
@@ -59,7 +59,7 @@ export const Blogs = () => (
                 "{testimonial.content}"
               </div>
               <div className="flex mt-4 mb-2 xl:mt-8 xl:mb-4">
-                <img src={testimonial.image} alt="" width="45px" />
+                <img src={testimonial.image} alt="" width="45px" border-radius="10" />
                 <div className="flex flex-col ml-4">
                   <div className="custom-content-text-white font-medium">
                     {testimonial.customerName}
