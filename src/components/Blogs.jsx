@@ -17,14 +17,14 @@ const BlogData = [
     customerName: "Rajul Jha",
     customerTitle: "Computer Science '26",
     content:
-      "The community is self driven and motivated. The mentors are very helpful and supportive. All the people are very friendly and the community is very welcoming. Since their is no rigid heirarchy, everyone is free to share their ideas and opinions.   ",
+      "ZHCET Code Oasis community is self driven and motivated. The mentors are very helpful, supportive and enthusiastic. All the people are very friendly and the community is very welcoming. Since their is no rigid hierarchy, everyone is free to share their ideas and opinions.",
     image: testimonial2,
   },
   {
     customerName: "Tayyab Ilyas",
     customerTitle: "Artificial Intelligence '26",
     content:
-      "It's a place for finding love. Love for coding, love for learning, love for sharing. It's a place where you can find people who are as passionate as you are. It's a place where you can find your true self. I am really excited to find love here. It's honestly better than tinder/bumble.",
+      "Zhcet Code Oasis is a dynamic community for students passionate about technology and open source. Our community fosters collaboration and knowledge sharing. Participate in projects, gain hands-on experience, and connect with like-minded peers.",
     image: testimonial3,
   },
 ];
@@ -59,7 +59,7 @@ export const Blogs = () => (
                 "{testimonial.content}"
               </div>
               <div className="flex mt-4 mb-2 xl:mt-8 xl:mb-4">
-                <img src={testimonial.image} alt="" width="45px" />
+                <img src={testimonial.image} alt="" width="45px" border-radius="10" />
                 <div className="flex flex-col ml-4">
                   <div className="custom-content-text-white font-medium">
                     {testimonial.customerName}
