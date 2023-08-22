@@ -16,6 +16,15 @@
         "design",
         "content"
       ]
+    },
+    {
+      "login": "rajuljha",
+      "name": "Rajul Jha",
+      "avatar_url": "https://avatars.githubusercontent.com/u/34140028?v=4",
+      "profile": "http://rajuljha.netlify.app",
+      "contributions": [
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
