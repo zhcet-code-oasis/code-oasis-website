@@ -1,9 +1,8 @@
 # NOTE:
 ##After you are done contributing and creating a PR, add a comment in the following manner: <br>
 ### @add-contributors please add @<your_username> for <your_contribution_tag> 
-<br>
 For a list of all available contribution tags, click [here](https://allcontributors.org/docs/en/emoji-key)
-
+You will be added to contributors list once the PR is merged!
 
 # Welcome to zhcet-code-oasis contributing guide
 
