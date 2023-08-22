@@ -25,6 +25,15 @@
       "contributions": [
         "review"
       ]
+    },
+    {
+      "login": "RTrex",
+      "name": "Yash Shukla",
+      "avatar_url": "https://avatars.githubusercontent.com/u/128938696?v=4",
+      "profile": "https://github.com/RTrex",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
