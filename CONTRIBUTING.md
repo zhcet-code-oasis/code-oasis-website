@@ -1,3 +1,10 @@
+# NOTE:
+##After you are done contributing and creating a PR, add a comment in the following manner: <br>
+### @add-contributors please add @<your_username> for <your_contribution_tag> 
+<br>
+For a list of all available contribution tags, click [here](https://allcontributors.org/docs/en/emoji-key)
+
+
 # Welcome to zhcet-code-oasis contributing guide
 
 Thank you for investing your time in contributing to our project! Any contribution you make will be reflected on [zhcet-code-oasis.github.com](https://github.com/zhcet-code-oasis/code-oasis-website) :sparkles:.
