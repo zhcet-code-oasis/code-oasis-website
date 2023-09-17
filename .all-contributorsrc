@@ -24,6 +24,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "Sharjeel-Afridi",
+      "name": "Sharjeel Afridi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52808124?v=4",
+      "profile": "https://github.com/Sharjeel-Afridi",
+      "contributions": [
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
