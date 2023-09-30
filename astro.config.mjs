@@ -9,6 +9,6 @@ export default defineConfig({
   //base: '/code-oasis-website',
   ,
 
-  output: "server",
+  output: "hybrid",
   adapter: vercel()
 });
