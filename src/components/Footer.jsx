@@ -3,6 +3,8 @@ import { InstagramIcon } from "../assets/icons/InstagramIcon";
 import { TailcastLogo } from "../assets/logos/TailcastLogo";
 import { TwitterIcon } from "../assets/icons/TwitterIcon";
 
+
+
 const footerData = [
   {
     title: "Products",
@@ -64,12 +66,15 @@ export const Footer = () => {
                 >
                   <TwitterIcon />
                 </a>
+                
                 <a
                   className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
-                  href="#"
+                  href="https://www.instagram.com/zhcet_code_oasis/" target="blank"
                 >
                   <InstagramIcon />
                 </a>
+
+                
               </div>
             </div>
             <div className="w-full lg:w-2/3  lg:pl-16 hidden lg:flex flex-wrap justify-between">
@@ -126,7 +131,7 @@ export const Footer = () => {
             </div>
           </div>
           <p className="lg:text-center text-sm text-gray-400 border-t border-[rgb(255,255,255,0.2)] pt-12 mt-16 hidden lg:block">
-            &copy; 2022. MIT license.
+            &copy; 2023. MIT license.
           </p>
         </div>
       </div>
