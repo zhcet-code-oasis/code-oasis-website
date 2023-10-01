@@ -33,6 +33,15 @@
       "contributions": [
         "review"
       ]
+    },
+    {
+      "login": "Abhishek-207",
+      "name": "ABHISHEK SINGH",
+      "avatar_url": "https://avatars.githubusercontent.com/u/98517363?v=4",
+      "profile": "https://github.com/Abhishek-207",
+      "contributions": [
+        "maintenance"
+      ]
     }
   ],
   "contributorsPerLine": 7,
