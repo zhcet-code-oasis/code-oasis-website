@@ -42,6 +42,15 @@
       "contributions": [
         "maintenance"
       ]
+    },
+    {
+      "login": "RayyanNafees",
+      "name": "Rayyan Nafees",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59685062?v=4",
+      "profile": "http://rayyannafees.github.io",
+      "contributions": [
+        "a11y"
+      ]
     }
   ],
   "contributorsPerLine": 7,
