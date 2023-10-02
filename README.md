@@ -1,6 +1,6 @@
 ## Tech stack:
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 Astro, React, Tailwind, Framer Motion
@@ -46,6 +46,7 @@ All commands are run from the root of the project, from a terminal:
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/RTrex"><img src="https://avatars.githubusercontent.com/u/128938696?v=4?s=100" width="100px;" alt="Yash Shukla"/><br /><sub><b>Yash Shukla</b></sub></a><br /><a href="https://github.com/zhcet-code-oasis/code-oasis-website/commits?author=RTrex" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Sharjeel-Afridi"><img src="https://avatars.githubusercontent.com/u/52808124?v=4?s=100" width="100px;" alt="Sharjeel Afridi"/><br /><sub><b>Sharjeel Afridi</b></sub></a><br /><a href="https://github.com/zhcet-code-oasis/code-oasis-website/pulls?q=is%3Apr+reviewed-by%3ASharjeel-Afridi" title="Reviewed Pull Requests">👀</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Abhishek-207"><img src="https://avatars.githubusercontent.com/u/98517363?v=4?s=100" width="100px;" alt="ABHISHEK SINGH"/><br /><sub><b>ABHISHEK SINGH</b></sub></a><br /><a href="#maintenance-Abhishek-207" title="Maintenance">🚧</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://rayyannafees.github.io"><img src="https://avatars.githubusercontent.com/u/59685062?v=4?s=100" width="100px;" alt="Rayyan Nafees"/><br /><sub><b>Rayyan Nafees</b></sub></a><br /><a href="#a11y-RayyanNafees" title="Accessibility">️️️️♿️</a></td>
     </tr>
   </tbody>
 </table>
