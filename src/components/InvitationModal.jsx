@@ -69,32 +69,29 @@ export const InvitationModal = ({ setIsOpen }) => (
                   />
 </div>*/}
                 <div className="w-full sm:w-4/5 p-2 mt-4 mx-auto">
-                  <button
-                    className="w-64 sm:w-52 h-12 rounded-xl font-bold text-white border border-solid  flex justify-center items-center cursor-pointer bg-customDarkBg2 hover:bg-customDarkBg3"
-                    type="button"
+                  <a
+                    href="https://join.slack.com/t/zhcet-code-oasis/shared_invite/zt-1z3oxnha8-IMP8DJPTdeMZuNMmPUfVQg"
+                    target="_blank"
                   >
-                    <SlackIcon />
-                    <a
-                      href="https://join.slack.com/t/zhcet-code-oasis/shared_invite/zt-1z3oxnha8-IMP8DJPTdeMZuNMmPUfVQg"
-                      target="_blank"
+                    <button
+                      className="w-64 sm:w-52 h-12 rounded-xl font-bold text-white border border-solid  flex justify-center items-center cursor-pointer bg-customDarkBg2 hover:bg-customDarkBg3"
+                      type="button"
                     >
+                      <SlackIcon />
                       Slack
-                    </a>
-                  </button>
+                    </button>
+                  </a>
                 </div>
                 <div className="w-full sm:w-4/5 p-2 mt-4 mx-auto">
-                  <button
-                    className="w-64 sm:w-52 h-12 rounded-xl font-bold text-white border border-solid  flex justify-center items-center cursor-pointer bg-customDarkBg2 hover:bg-customDarkBg3"
-                    type="button"
-                  >
-                    <GithubIcon />
-                    <a
-                      href="https://github.com/zhcet-code-oasis"
-                      target="_blank"
+                  <a href="https://github.com/zhcet-code-oasis" target="_blank">
+                    <button
+                      className="w-64 sm:w-52 h-12 rounded-xl font-bold text-white border border-solid  flex justify-center items-center cursor-pointer bg-customDarkBg2 hover:bg-customDarkBg3"
+                      type="button"
                     >
+                      <GithubIcon />
                       GitHub
-                    </a>
-                  </button>
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>

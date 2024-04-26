@@ -1,30 +1,22 @@
-import { FacebookIcon } from "../assets/icons/FacebookIcon";
+// import { FacebookIcon } from "../assets/icons/FacebookIcon";
 import { InstagramIcon } from "../assets/icons/InstagramIcon";
 import { TailcastLogo } from "../assets/logos/TailcastLogo";
-import { TwitterIcon } from "../assets/icons/TwitterIcon";
-
-
+// import { TwitterIcon } from "../assets/icons/TwitterIcon";
+import { SlackIcon } from "../assets/icons/SlackIcon";
 
 const footerData = [
-  {
-    title: "Products",
-    items: ["Services", "About Us", "News and Stories", "Roadmap"],
-  },
+  // {
+  //   title: "Products",
+  //   items: ["Services", "About Us", "News and Stories", "Roadmap"],
+  // },
   {
     title: "Important Links",
-    items: [
-      "Organization Team",
-      "Our Journeys",
-      "Pricing Plans",
-      "Roadmap",
-      "Terms & Conditions",
-      "Privacy Policy",
-    ],
+    items: ["About Us", "Contact Us"],
   },
-  {
-    title: "Company",
-    items: ["About Us", "Jobs", "Press", "Contact Us"],
-  },
+  // {
+  //   title: "Company",
+  //   items: ["About Us", "Jobs", "Press", "Contact Us"],
+  // },
 ];
 
 export const Footer = () => {
@@ -43,7 +35,7 @@ export const Footer = () => {
                 </div>
               </div>
               <p className="mb-10 mt-4 sm:w-[22rem] lg:w-[20rem] xl:w-[24rem] text-gray-400 leading-loose text-center lg:text-left mx-auto lg:mx-0">
-                Your Own Community
+                Learn. Build. Ship.
                 {/*<a
                   href="https://bootstrapious.com/p/bootstrap-4-dark-admin"
                   target="_blank"
@@ -54,31 +46,30 @@ export const Footer = () => {
   </a>*/}
               </p>
               <div className="w-36 mx-auto lg:mx-0">
-                <a
+                {/* <a
                   className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
                   href="#"
                 >
                   <FacebookIcon />
-                </a>
+                </a> */}
                 <a
                   className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
                   href="#"
                 >
-                  <TwitterIcon />
+                  <SlackIcon />
                 </a>
-                
+
                 <a
                   className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
-                  href="https://www.instagram.com/zhcet_code_oasis/" target="blank"
+                  href="https://www.instagram.com/zhcet_code_oasis/"
+                  target="blank"
                 >
                   <InstagramIcon />
                 </a>
-
-                
               </div>
             </div>
             <div className="w-full lg:w-2/3  lg:pl-16 hidden lg:flex flex-wrap justify-between">
-              <div className="w-full md:w-1/3 lg:w-auto mb-16 md:mb-0">
+              {/* <div className="w-full md:w-1/3 lg:w-auto mb-16 md:mb-0">
                 <h3 className="mb-6 text-2xl font-bold text-white">Products</h3>
                 <ul>
                   {footerData[0].items.map((item, i) => (
@@ -93,13 +84,13 @@ export const Footer = () => {
                     </li>
                   ))}
                 </ul>
-              </div>
+              </div> */}
               <div className="w-full md:w-1/3 lg:w-auto mb-16 md:mb-0">
                 <h3 className="mb-6 text-2xl font-bold text-white">
                   Important Links
                 </h3>
                 <ul>
-                  {footerData[1].items.map((item, i) => (
+                  {footerData[0].items.map((item, i) => (
                     <li key={i} className="mb-4">
                       <a
                         className="text-gray-400 hover:text-gray-300"
@@ -112,7 +103,7 @@ export const Footer = () => {
                   ))}
                 </ul>
               </div>
-              <div className="w-full md:w-1/3 lg:w-auto">
+              {/* <div className="w-full md:w-1/3 lg:w-auto">
                 <h3 className="mb-6 text-2xl font-bold text-white">Company</h3>
                 <ul>
                   {footerData[2].items.map((item, i) => (
@@ -127,7 +118,7 @@ export const Footer = () => {
                     </li>
                   ))}
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
           <p className="lg:text-center text-sm text-gray-400 border-t border-[rgb(255,255,255,0.2)] pt-12 mt-16 hidden lg:block">

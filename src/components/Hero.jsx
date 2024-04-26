@@ -32,10 +32,7 @@ export const Hero = () => {
             {/*<span className="inline md:hidden">
               Unleashing Innovation, Cultivating Collaboration:
 </span>*/}
-            <span className="hidden md:inline">
-              Welcome To <br />
-              ZHCET Code OaSiS
-            </span>
+            <span className="">ZHCET Code OaSiS</span>
           </div>
           {/*<div className="mt-2 sm:mt-2 text-4xl sm:text-6xl lg:text-7xl xl:text-7xl font-bold tracking-wide  text-white  px-8 sm:px-20 md:px-24 lg:px-24">
             for developers
@@ -46,8 +43,8 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
         >
-          <div className="text-customGrayText text-sm lg:text-base xl:text-lg sm:text-base mt-8 px-12 sm:px-48 ">
-            Unleashing Innovation Cultivating Collaboration
+          <div className="text-customGrayText sm:text-base lg:text-xl xl:text-3xl mt-4 px-12 sm:px-48 ">
+            Learn. Build. Ship.
           </div>
         </motion.div>
         <motion.div
@@ -55,9 +52,9 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.15 }}
         >
-          <div className="flex flex-col gap-2 sm:flex-row mt-10 mb-0 sm:mb-40 justify-center">
+          <div className="flex flex-col sm:flex-row items-center justify-center">
             <div
-              className="custom-button-colored w-64 sm:w-52 h-12 mr-0 sm:mr-4 lg:mr-6 mb-0 sm:mb-0"
+              className="flex justify-center custom-button-colored w-full sm:w-64 h-12 text-white font-bold py-2 px-4 rounded-lg cursor-pointer mt-4 mb-4"
               onClick={() => setIsModalOpen(true)}
             >
               Get Involved
@@ -75,7 +72,7 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0, zIndex: 20 }}
           transition={{ duration: 0.5, delay: 0.15 }}
         >
-          <div className="relative w-screen flex justify-center ">
+          <div className="relative w-screen flex justify-center">
             <img
               src={hero}
               alt="slack server"
